@@ -15,13 +15,13 @@ print(f"La computadora eligió: {computadora}")
 
 # Determinar ganador
 if jugador == computadora:
-    print("🤝 ¡Empate!")
+    print(" ¡Empate!")
 elif (
     (jugador == "piedra" and computadora == "tijera") or
     (jugador == "papel" and computadora == "piedra") or
     (jugador == "tijera" and computadora == "papel")
 ):
-    print("🎉 ¡Ganaste!")
+    print(" ¡Ganaste!")
 elif jugador in opciones:
     print(" ¡La computadora gana!")
 else:
